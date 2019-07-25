@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+            Toast.makeText(this,"Home selected",Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_gallery) {
             Toast.makeText(this,"Gallery selected",Toast.LENGTH_LONG).show();
 
